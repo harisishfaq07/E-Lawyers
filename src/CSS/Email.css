@@ -1,0 +1,32 @@
+
+.Emailsubscribe{
+    padding: 4px 4px 4px 4px;
+    width: 8%;
+    border-radius: 10px;
+    background-color:  #b3b3b3;
+    color: white;
+    
+}
+.setmailinput{
+    width: 40%;
+    height: 2.5rem;
+border: 2px solid black;
+    border-radius: 2rem;
+    text-align: center;
+}
+.emailupdatelabel{
+    text-align: center;
+    margin-top: 3%;
+    color: #9e9a99;
+}
+
+.setmail{
+    text-align: center;
+    margin:1% 0% 2% 0%;
+    
+}
+.setmailinput:hover{
+    border: 2px solid white;
+    background-color: rgb(211, 207, 207);
+    color: black;
+}

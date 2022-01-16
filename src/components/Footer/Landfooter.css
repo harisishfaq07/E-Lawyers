@@ -1,0 +1,46 @@
+.textnone{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+} 
+.textnone :hover{
+    transform: scale(1.5);
+}
+
+/* facebook icon decoration and hovour */
+.fb{
+    padding: 13px;   
+}
+.fb :hover{
+    color: #4867aa;
+    transform: scale(1.1);
+}
+/* instagram icon decoration and hovour */
+.insta{
+    padding: 13px; 
+}
+.insta :hover{
+    color: #4867aa;
+    transform: scale(1.1);
+}
+/* Twitter icon decoration and hovour */
+.twit{
+    padding: 13px;
+}
+.twit :hover{
+    color: #4867aa;
+    transform: scale(1.1);
+}
+/* Twitter icon decoration and hovour */
+.yt{
+    padding: 13px; 
+}
+.yt :hover{
+    color: #4867aa;
+    transform: scale(1.1);
+}
+
+
+.footer{  
+        background-color: #302f2d;      
+}

@@ -1,0 +1,27 @@
+.margint{
+    margin-top: 100px;
+}
+.contactform{
+    border: solid red 2px;
+    align-content: center !important;
+}
+.txtarea{
+    border: 0 0 2px 0;
+    border: solid green 2px;
+}
+.btnset{
+    width: 15%;
+    border-radius: 10px;
+    background-color:  #b3b3b3;
+    color: white;
+}
+.btnset:hover{
+    background-color: gray;
+}
+.imgborder{
+    border-radius: 12px;
+    opacity: 85%;
+}
+.imgborder:hover{
+    box-shadow: 0px 3px 7px 0px gray;
+}

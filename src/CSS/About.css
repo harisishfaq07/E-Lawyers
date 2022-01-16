@@ -1,0 +1,38 @@
+
+/* About */
+.imgabout1{
+    width: 100%;
+    height: 100%;
+    margin-left: 13px;
+}
+.imgabout1:hover{
+    transform: scale(1.15);
+    transition: transform 0.7s ease;
+    box-shadow: 1px 15px 15p 15px #707070 !important;
+}
+.overfl{
+    overflow: hidden;
+}
+.aboutsection1{
+    margin-bottom: 20px;
+    margin-top: 74px;
+    color: #707070;
+}
+.imgabout2{
+    padding-top: 30px;
+    width: 100%;
+    height: 93%;
+    margin-left: 13px;
+}
+.aboutsection2{
+    background-color: #f3f3f3;
+    text-justify:distribute;
+    color: #707070;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.padtop{
+    padding-top: 30px;
+    padding-left:15px ;
+    color: #707070;
+}

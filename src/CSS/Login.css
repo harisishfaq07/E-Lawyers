@@ -1,0 +1,31 @@
+.loginpage{
+    width: 60%;
+    height: 2.5rem;
+}
+.loginpage:hover{
+    box-shadow: gray;
+}
+
+.border{
+    border: 2px solid black;
+  
+}
+.loginbtn{
+    width: 5rem;
+    border-radius: 10px;
+    background-color:  #302f2d;
+    color: white;
+    padding: auto;
+    align-items: center;
+}
+.loginbtn:hover{
+  background-color: gray;
+}
+
+.imgborder{
+    border-radius: 12px;
+    opacity: 85%;
+}
+.imgborder:hover{
+    box-shadow: 0px 3px 7px 0px gray;
+}

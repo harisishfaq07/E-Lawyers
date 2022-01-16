@@ -1,0 +1,256 @@
+/* .button{
+    width: 5rem;
+    border-radius: 0px;
+    background-color:  #302f2d;
+    color: white;
+
+}
+.btn-contact {
+    width: 5rem;
+    border-radius: 0px;
+    background-color:  #302f2d;
+    color: white;
+    margin-right: 1rem;
+}
+.space{
+
+    margin: 100px 0 50px 0;
+}
+.style1{
+    width: 140px;
+}
+.style2{
+    height: 140px; background-color: rgb(233, 236, 239);
+}
+.style3{
+    color: rgb(166, 168, 170); font: bold 8pt Arial;
+}
+
+.navbar-nav {
+    margin-left: auto !important;
+    align-items: center !important;
+}
+.lnav-btn-container {
+    display: flex;
+    margin-left: 0.6rem;
+}
+.btn-contact {
+    background-color: gray !important;
+    border-radius: 10px;
+    border: none;
+    padding: 7px 10px;
+    color: white;
+
+}
+.btn-logout {
+    background-color: gray !important;
+    border-radius: 10px;
+    border: none;
+    height: 0.4rem;
+    color: white;
+}
+
+.profile-header-container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-header-img {
+    padding: 54px;
+}
+
+.profile-header-img > img.img-circle {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #51D2B7;
+}
+
+.profile-header {
+    margin-top: 43px;
+}
+
+
+.rank-label-container {
+    margin-top: -19px;
+    text-align: center;
+}
+
+.label.label-default.rank-label {
+    background-color: rgb(81, 210, 183);
+    padding: 5px 10px 5px 10px;
+    border-radius: 27px;
+}
+
+/* new css added */
+
+/* .profile-header-container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-header-img {
+    padding: 54px;
+}
+
+.profile-header-img > img.img-circle {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #51D2B7;
+}
+
+.profile-header {
+    margin-top: 43px;
+}
+
+
+.rank-label-container {
+    margin-top: -19px;
+    text-align: center;
+}
+
+.label.label-default.rank-label {
+    background-color: rgb(81, 210, 183);
+    padding: 5px 10px 5px 10px;
+    border-radius: 27px;
+}
+.verify{
+ text-align: center;
+ border: 2px solid black;  
+ margin: 0rem 25rem 0rem 25rem; 
+ padding: 2rem 0rem 2rem 0rem;
+}
+.center{
+    text-align: center;
+}
+.margin{
+    margin-left: 25%;
+}
+.height{
+    padding: 1% 0% 30% 0%;
+} */ 
+.Lborder{
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: center;
+    width: 50%;
+    margin: 2% 0% 10% 25%;
+}
+
+.Lbtn{
+    border: 1px solid black;
+    height: 50px;
+    width: 15%;
+    border-radius: 5px;
+    animation: Lbg 2s infinite;
+}
+@keyframes Lbg{
+    0%{
+
+        background-color: rgb(34, 33, 33);
+        color: white;
+    }
+    100%{
+background-color: white;
+color: black;
+
+    }
+}
+.button{
+    width: 5rem;
+    border-radius: 10px;
+    background-color:  #302f2d;
+    color: white;
+}
+.space{
+
+    margin: 100px 0 50px 0;
+}
+.style1{
+    width: 140px;
+}
+.style2{
+    height: 140px; background-color: rgb(233, 236, 239);
+}
+.style3{
+    color: rgb(166, 168, 170); font: bold 8pt Arial;
+}
+
+
+
+
+.profile-header-container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-header-img {
+    padding: 54px;
+}
+
+.profile-header-img > img.img-circle {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #51D2B7;
+}
+
+.profile-header {
+    margin-top: 43px;
+}
+
+
+.rank-label-container {
+    margin-top: -19px;
+    text-align: center;
+}
+
+.label.label-default.rank-label {
+    background-color: rgb(81, 210, 183);
+    padding: 5px 10px 5px 10px;
+    border-radius: 27px;
+}
+.verify{
+ text-align: center;
+ border-radius: 50px;
+ border: 2px solid black;  
+ margin: 0rem 25rem 0rem 25rem; 
+ padding: 2rem 0rem 2rem 0rem;
+}
+.center{
+    text-align: center;
+}
+.margin{
+    margin-left: 25%;
+}
+.height{
+    padding: 1% 0% 30% 0%;
+}
+
+.navbar-nav .nav-item {
+    padding-left:1rem ; 
+    padding-right:1rem ;
+}
+.navbar-nav .nav-item .nav-link {
+    padding: 0rem;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    border-bottom: 1px solid whitesmoke;
+    
+}
+.active__link {
+    border-bottom: 1px solid whitesmoke;
+
+}
+.upload__img--btn {
+    width: 10rem;
+    /* height: rem; */
+    color: white;
+padding: 0.3rem 1rem;
+border-radius: 3px;
+    background-color: #0d6efd;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding-top: 0.7rem;
+    padding-bottom: 0.16rem;
+cursor: pointer;
+}

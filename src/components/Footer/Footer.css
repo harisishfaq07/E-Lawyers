@@ -1,0 +1,22 @@
+.footer{
+    background-color: black;
+    
+}
+.row h3{
+    color: white;
+    font-weight: 200;
+}
+.footer-heading{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.copyright{
+    color: white;
+    text-align: center;
+}
+.Footer{
+    background-color: #b8b6b2;
+}

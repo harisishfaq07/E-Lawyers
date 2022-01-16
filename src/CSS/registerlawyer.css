@@ -1,0 +1,27 @@
+
+.registerbtn{
+    background-color:  #b3b3b3;
+    color: white;
+    width: 20%;
+    border-radius: 10px;
+    padding: 4px 3px 4px 3px;
+
+}
+.registerbtn:hover{
+    background-color: rgb(112, 112, 112);
+}
+.pdng{
+    padding-top: 60px;
+}
+
+.vl {
+    border-left: 3px solid #93948f;
+    height: 370px;
+    margin-left: 3rem;
+  }
+@media(min-width : 770px){
+    .pdng{
+      
+        border-right: 2px solid black;
+    }
+}
