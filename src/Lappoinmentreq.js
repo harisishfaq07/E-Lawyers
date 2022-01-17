@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { NavLink, Redirect } from "react-router-dom";
+import { NavLink, Redirect, useHistory } from "react-router-dom";
 import { db } from "./components/firebase";
 import Lnav from "./Lnav";
 
 const Lappoinmentreq = () => {
+  let history = useHistory;
   const [notif, setnotif] = useState({});
   const [reqs, setreqs] = useState();
   const getlawyer = async () => {
@@ -49,6 +50,9 @@ const Lappoinmentreq = () => {
       console.log("done");
       window.alert("success");
       document.getElementById(target.dataset.textarea).value="";
+      if(alert){
+        history.push("/lawyer");
+      }
     }
   };
   const manage = async (target) => {

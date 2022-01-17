@@ -10,6 +10,7 @@ import Unav from "./Unav";
 import { AiFillCamera } from "react-icons/ai";
 
 const Uprofile = () => {
+  let history = useHistory();
   const { register, handleSubmit, reset } = useForm();
   const [matchPass, setmatchPass] = useState("");
   const [userImage, setuserImage] = useState("");
@@ -341,7 +342,7 @@ const Uprofile = () => {
               </div>
 
               <div className="col-12 col-md-3 mb-3">
-                <div className="card mb-3">
+                {/* <div className="card mb-3">
                   <div className="card-body">
                     <div className="px-xl-3">
                       <button className="btn btn-block btn-secondary">
@@ -350,12 +351,12 @@ const Uprofile = () => {
                       </button>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <div className="card">
                   <div className="card-body">
                     <h6 className="card-title font-weight-bold">Support</h6>
                     <p className="card-text">Get fast, free help from our friendly assistants.</p>
-                    <button type="button" className="btn btn-primary">
+                    <button type="button" className="btn btn-primary" onClick={()=>history.push("/Ucontact")}>
                       Need Help?
                     </button>
                   </div>
